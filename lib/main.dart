@@ -12,9 +12,11 @@ class MyApp extends StatelessWidget {
           title: Text('Flutter Widgets'),
           backgroundColor: Colors.pink,
         ),
-        body: Image(
-          image: NetworkImage(
-              'https://images.unsplash.com/photo-1586040399457-a6b3cbe7eb72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1575&q=80'),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'https://images.unsplash.com/photo-1586040399457-a6b3cbe7eb72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1575&q=80'),
+          ),
         ),
       ),
     );
